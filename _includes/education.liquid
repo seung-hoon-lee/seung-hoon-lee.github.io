@@ -5,8 +5,12 @@
         <strong>{{ edu.degree }}</strong>, {{ edu.institution }}
         <ul>
           <li>{{ edu.year }}</li>
+          {% if edu.description %}
+            {% for line in edu.description %}
+              <li>{{ line }}</li>
+            {% endfor %}
+          {% endif %}
         </ul>
-        
       </li>
     {% endfor %}
   </ul>
