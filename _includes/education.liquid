@@ -2,12 +2,11 @@
   <ul class="edu-list">
     {% for edu in site.data.education %}
       <li>
-        <strong>{{ edu.degree }}</strong>, {{ edu.institution }}
+        <strong>{{ edu.degree }}</strong>, {{ edu.institution }}, {{ edu.year }}
         <ul>
-          <li>{{ edu.year }}</li>
           {% if edu.description %}
             {% for line in edu.description %}
-              <li>{{ line }}</li>
+              <li><em>{{ line }}</em></li>
             {% endfor %}
           {% endif %}
         </ul>

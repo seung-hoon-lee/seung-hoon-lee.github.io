@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am a Master student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by [Prof. Bumsub Ham](mailto:bumsub.ham@yonsei.ac.kr). I earned my B.S. degree in Intelligent Mechatronics Engineering from Sejong University in 2024
+Hello! I am a Master student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by [Prof. Bumsub Ham](mailto:bumsub.ham@yonsei.ac.kr). I earned my B.S. degree in Intelligent Mechatronics Engineering from Sejong University in 2024.
 
 My research interests include **computer vision**, **network quantization**, and **efficient foundation models**. 
 
