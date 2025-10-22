@@ -437,21 +437,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%65%6F%6E%67%77%6F%6F.%63%68%6F%69@%79%6F%6E%73%65%69.%61%63.%6B%72", "_blank");
+          window.open("mailto:%73%65%75%6E%67%68%6F%6F%6E.%6C%65%65@%79%6F%6E%73%65%69.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jeongwoo-choi-038924315", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://www.linkedin.com/in/승훈-이-63b84826a", "_blank");
         },
       },{
         id: 'social-custom_social',
