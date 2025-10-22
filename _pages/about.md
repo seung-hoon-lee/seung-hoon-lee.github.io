@@ -6,7 +6,7 @@ subtitle: 'Master Student @ Yonsei University | <a href="mailto:seunghoon.lee@yo
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: seunghoon.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
