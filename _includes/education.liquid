@@ -4,6 +4,7 @@
       <li>
         <strong>{{ edu.degree }}</strong>, {{ edu.institution }}, {{ edu.year }}
         <ul>
+          <li><strong>{{ edu.awards }}</strong></li>
           {% if edu.description %}
             {% for line in edu.description %}
               <li><em>{{ line }}</em></li>
