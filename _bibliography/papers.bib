@@ -25,9 +25,9 @@
   year={2025},
   arxiv={/404.html},
   selected={true},
-  preview={comingsoon.png},
+  preview={qsam_overview.png},
   abbr={under review},
-  abstract={},
+  abstract={Post-training quantization (PTQ) aims to quantize a pre-trained full-precision model using a small set of unlabeled samples without training the weights. Although many PTQ methods show strong results on CNNs and ViTs, directly applying them to SAM results in performance degradation, mainly because the mask-decoder layers in SAM exhibit unique activation distributions. Specifically, we show that semantically meaningless outliers and large distributional gaps exist in the pre-query and post-key activations, leading to inefficient use of quantization levels in low-bit settings. We also show that the object detector often produces inaccurate calibration prompts, thereby providing unreliable guidance to the quantized model and further degrading performance. To address these issues, we propose a simple yet effective PTQ method for SAM, dubbed Q-SAM. We clip non-semantic outliers in the pre-query activations and redistribute the post-key activations so that quantization levels are allocated to regions where most values concentrate, enabling fine-grained quantization. In addition, we introduce an efficient indicator to filter inaccurate prompts without incurring additional computational overhead. Experiments on standard benchmarks demonstrate the effectiveness of Q-SAM, achieving state-of-the-art results at 4- and 6-bit settings. Our code will be made publicly available online.},
 }
 
 @inproceedings{lee2022uda,
